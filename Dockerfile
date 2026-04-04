@@ -1,5 +1,0 @@
-FROM  alpine:latest
-
-COPY hello.sh /hello.sh
-RUN chmod 777 /hello.sh
-CMD ["sh","./hello.sh"]
